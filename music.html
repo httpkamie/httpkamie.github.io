@@ -1,0 +1,130 @@
+<html>
+<head>
+  <title>Music Page</title>
+  <style>
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+      padding: 50px;
+    }
+
+    .header {
+      margin-bottom: 20px;
+    }
+
+    .header img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .header p {
+      font-size: 16px;
+      margin-top: 20px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      background-color: #f9f9f9;
+      font-style: italic;
+    }
+
+    .audio-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 50px;
+    }
+
+    .audio-item {
+      width: 300px;
+      margin: 10px;
+      padding: 10px;
+      background-color: #f2f2f2;
+      border-radius: 8px;
+    }
+
+    .audio-item img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+
+    .audio-item h3 {
+      margin-top: 0;
+    }
+
+    .audio-item p {
+      margin-bottom: 0;
+      font-size: 14px;
+    }
+
+    .button-container {
+      margin-top: 50px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #C39BD3;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+      margin-right: 10px;
+    }
+
+    .button:hover {
+      background-color: #8E44AD;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="image/musics header.png" alt="Header Image">
+    <p>Since I was a young child, music has been my greatest passion; it has always been an escape for me to feel as though I were in another universe. Since I am the sort to listen to an entire album in one sitting, the opening and ending of songs have a significant impact on me. I've included a list of some of my favorite albums and my favorite track from each of those albums. ^^</p>
+  </div>
+
+  <div class="audio-container">
+    <div class="audio-item">
+      <img src="image/Dawn FM.png" alt="Dawn FM">
+      <h3>DAWN FM</h3>
+      <p>OUT OF TIME - THE WEEKEND</p>
+      <audio controls>
+        <source src="audio/Out of Time.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="audio-item">
+      <img src="image/Love Yourself Tear.jpeg" alt="LOVE YOURSELF: TEAR">
+      <h3>LOVE YOURSELF:TEAR</h3>
+      <p>The Truth Untold(feat.Steve Aoki) - BTS</p>
+      <audio controls>
+        <source src="audio/The Truth Untold.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="audio-item">
+      <img src="image/Border Carnival.jpg" alt="BORDER:CARNIVAL">
+      <h3>BORDER : CARNIVAL</h3>
+      <p>Fever - Enhypen</p>
+      <audio controls>
+        <source src="audio/Fever Enhypen.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="audio-item">
+      <img src="image/The Name Chapter TEMPTATION.png" alt="The Name Chapter:TEMPTATION">
+      <h3>The Name Chapter:TEMPTATION</h3>
+      <p>Farewell, Neverland - TOMORROW X TOGETHER</p>
+      <audio controls>
+        <source src="audio/Farewell Neverland TXT.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </div>
+
+  <div class="button-container">
+    <a href="gallery.html" class="button">Gallery</a>
+    <a href="index.html" class="button">Home</a>
+  </div>
+</body>
+</html>

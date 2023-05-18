@@ -1,0 +1,149 @@
+<html>
+<head>
+  <title>Family</title>
+  <style>
+    body {
+      font-family: 'Helvetica', sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    
+    .header {
+      margin-bottom: 20px;
+    }
+
+    .header img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      font-family: 'Georgia', serif;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      text-align: justify;
+    }
+
+    .picture {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 40px;
+    }
+
+    .picture img {
+      max-width: 45%;
+      height: auto;
+      border-radius: 8px;
+      animation: slideInLeft 1s ease;
+    }
+
+    .caption {
+      max-width: 45%;
+      text-align: left;
+      animation: slideInRight 1s ease;
+    }
+
+    .caption h2 {
+      margin-top: 0;
+      font-size: 24px;
+      margin-bottom: 10px;
+      font-family: 'Georgia', serif;
+    }
+
+    .button-container {
+      margin-top: 50px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #C39BD3;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+      margin-right: 10px;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .button:hover {
+      background-color: #8E44AD;
+    }
+
+    @keyframes slideInLeft {
+      0% {
+        opacity: 0;
+        transform: translateX(-100%);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes slideInRight {
+      0% {
+        opacity: 0;
+        transform: translateX(100%);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="image/family header.png" alt="Header Image">
+  </div>
+
+  <div class="content">
+    <h1>My Family</h1>
+
+    <div class="picture">
+      <img src="image/mama.jpg" alt="Mama">
+      <div class="caption">
+        <h2>My Mother</h2>
+        <p>This emotional tribute is for the best mum ever, who is like a bright light of love and support. From giving me constant support to making me stay up late to study, you've been my guiding star, showing me the way to success in the most amazing ways. Your unfailing faith in me has pushed me to get where I am today. I'll always be thankful for your love and care.</p>
+      </div>
+    </div>
+
+    <div class="picture">
+      <img src="image/abah.jpg" alt="Abah">
+      <div class="caption">
+        <h2>My Father</h2>
+        <p>In a world where superheroes only appear in comic books, I was lucky to have a dad who was a real-life superhero. His strength and toughness were unmatched, and he faced the battles of life with a relentless spirit and without fear. Through his wise words and gentle advice, he taught me the importance of sticking with things and not giving up. Even though time has put distance between us, the memories of his constant love and support will always remind me to be the best version of myself. Abah, I miss you.</p>
+      </div>
+    </div>
+
+    <div class="picture">
+      <img src="image/abush.jpeg" alt="Abush">
+      <div class="caption">
+        <h2>My Cat</h2>
+        <p>Even though being a student is hard work, there is a fluffy friend who brings comfort and happiness. Meet my cat friend, whose silly acts and calming purrs are the perfect way to get away from the stress of school. My cat adds a touch of magic to my life as a student. He playfully jumps on paper balls and lazily naps on my books. In his company, stress goes away and a calm feeling takes over. He helps me study and is always there to listen and make me feel better. He is my secret source of inspiration and happiness, he is my family and my little brother forever.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="button-container">
+    <a href="education.html" class="button">Education</a>
+    <a href="index.html" class="button">Home</a>
+    <a href="gallery.html" class="button">Gallery</a>
+  </div>
+</body>
+</html>
+

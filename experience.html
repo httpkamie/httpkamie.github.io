@@ -1,0 +1,101 @@
+<html>
+<head>
+  <title>My Experience</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      text-align: center;
+      padding: 50px;
+    }
+
+    #video-container {
+      position: relative;
+      width: 100%;
+      height: 0;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio (adjust as needed) */
+      overflow: hidden;
+    }
+
+    #video-background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .header {
+      margin-bottom: 20px;
+    }
+
+    .header img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .text-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      color: #fff;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    .button-container {
+      margin-top: 20px;
+    }
+
+    .button-container a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #C39BD3;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+      margin-right: 10px;
+    }
+
+    .button-container a:hover {
+      background-color: #8E44AD;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="image/experience header.png" alt="Header Image">
+  </div>
+
+  <div id="video-container">
+    <video id="video-background" autoplay loop muted>
+      <source src="video/chatime.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="text-overlay">
+      <h1>My Experience</h1>
+      <p>My first job, at Chatime in IPC Damansara, was not only an incredible learning experience, but also the best possible introduction to the working world. During my time off between semesters, I was able to participate in a dynamic setting where I honed my time management skills and expanded my horizons beyond what can be found in a textbook. The fantastic coworkers and encouraging management were the main reasons why this job turned out to be such a memorable and enjoyable experience. </p>
+      <p>I was able to thrive in my position because of the supportive and encouraging relationships I had and the advice I received. When I think back on this incredible experience, I am filled with gratitude and an eager anticipation for the chance to return to Chatime at IPC Damansara, where I may continue to learn, contribute, and make even more wonderful memories. </p>
+    </div>
+
+  <div class="button-container">
+    <a href="about me.html">About Me</a>
+    <a href="index.html">Homepage</a>
+    <a href="education.html">Education</a>
+  </div>
+</body>
+</html>
